@@ -1,0 +1,142 @@
+.header {
+    margin-bottom: 94px;
+}
+
+.barracinza {
+    border: 1px solid #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    margin: 0px 165px;
+}
+
+.entrarContato {
+    display: flex;
+    gap: 20px;
+
+    margin-top: 48px;
+    padding: 0px 165px;
+}
+
+.entrarContato h1 {
+    width: 350px;
+    height: 42px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #33323D;
+}
+
+.contato__texto p {
+    width: 635px;
+    height: 180px;
+
+    margin-bottom: 54px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.redesSociais {
+    display: flex;
+    gap: 16px;
+
+    margin-bottom: 48px;
+}
+
+
+/* FORMULARIO */
+
+
+.formularioContato {
+    display: flex;
+    gap: 262px;
+    margin-top: 47px;
+    padding: 0px 165px;
+}
+
+.formularioContato h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #33323D;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.input label {
+    width: 67px;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.input input {
+    all: unset;
+    box-sizing: border-box;
+    width: 635px;
+    height: 25px;
+    background: rgba(51, 50, 61, 0.1);
+    mix-blend-mode: normal;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    color: black;
+}
+
+#txt-msg {
+    height: 96px;
+    padding-bottom: 75px;
+}
+
+textarea {
+    background: rgba(51, 50, 61, 0.1);
+    border: 0;
+    resize: none;
+    overflow: visible
+}
+
+
+.input input:focus {
+    border: 2px solid rgba(0, 0, 0, 1);
+    box-sizing: border-box;
+}
+
+.formulario__button {
+    all: unset;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    background: #203A4C;
+    padding: 17px 73px;
+
+    margin-bottom: 109px;
+}
+
+.formulario__button:hover {
+    background: #5FB4A2;
+}

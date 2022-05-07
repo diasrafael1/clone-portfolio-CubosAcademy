@@ -1,0 +1,81 @@
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #33323D;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 165px 0px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 43px;
+}
+
+.header__menu a {
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #33323D;
+}
+
+.header__menu a:hover {
+    color: #5FB4A2;
+}
+
+.header__menu .menu__siteselecionado {
+    color: #5FB4A2;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 165px;
+    background: #33323D;
+}
+
+.logoenavegacao {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.logoenavegacao__menu a {
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-right: 43px;
+}
+
+.redes {
+    display: flex;
+    gap: 16px;
+}

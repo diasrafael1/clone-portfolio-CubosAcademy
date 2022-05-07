@@ -1,0 +1,219 @@
+.card {
+    display: flex;
+    margin: 94px auto;
+    margin-bottom: 115px;
+    padding: 0 165px;
+
+    width: 985px;
+    height: 375px;
+
+    background-image: url(../../assets/portfolio/fylo/image-fylo-hero.jpg);
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    padding: 0 165px;
+    gap: 125px;
+}
+
+.barracinza {
+    border: 1px solid #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}
+
+.margin--barra {
+    margin-top: 48px;
+}
+
+.fylo__titulo {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #33323D;
+    margin-top: 48px;
+}
+
+.fylo__texto {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+    margin-top: 29px;
+    margin-bottom: 53px;
+}
+
+
+.fylo__texto--verde {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5FB4A2;
+
+    margin-bottom: 16px;
+    width: 350px;
+}
+
+.margin--texto {
+    margin-bottom: 32px;
+}
+
+.card__fylo a {
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #33323D;
+
+    border: 1px solid #33323D;
+    padding: 17px 60px;
+}
+
+.card__fylo a:hover {
+    color: #FAFAFA;
+    background: #33323D;
+}
+
+
+.projeto__titulo {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #33323D;
+
+    margin-bottom: 28px;
+}
+
+.projeto__texto {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+    margin-bottom: 40px;
+}
+
+.projeto__texto a {
+    color: #33323D;
+}
+
+.foto__titulo {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #33323D;
+
+    margin-bottom: 28px;
+}
+
+.card__projeto img {
+    width: 505px;
+    height: 370px;
+    margin-bottom: 32px;
+}
+
+.margin--foto {
+    margin-bottom: 64px;
+}
+
+
+.linksPaginas {
+    padding: 0px 165px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0px;
+}
+
+.links a {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+    text-decoration: none;
+}
+
+.links a img {
+    width: 8px;
+    height: 16px;
+    margin-top: 25px;
+}
+
+.link__texto h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #33323D;
+}
+
+.link__texto p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 165px;
+    margin: 115px 0px
+}
+
+.contato h1 {
+    width: 400px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.contato a {
+    text-decoration: none;
+    padding: 17px 50px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #33323D;
+    border: 1px solid #33323D;
+}
+
+.contato a:hover {
+    color: #FAFAFA;
+    background: #33323D;
+}

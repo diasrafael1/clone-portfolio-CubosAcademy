@@ -1,0 +1,125 @@
+.card {
+    display: flex;
+    gap: 50px;
+    margin-top: 94px;
+    padding: 0px 213px;
+}
+
+.invertido {
+    flex-direction: row-reverse;
+}
+
+.card__foto {
+    width: 2200px;
+    height: 502px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.manage {
+    background-image: url(../../assets/portfolio/manage/image-portfolio-manage.jpg);
+}
+
+.bookmark {
+    background-image: url(../../assets/portfolio/bookmark/image-portfolio-bookmark.jpg);
+}
+
+.insure {
+    background-image: url(../../assets/portfolio/insure/image-portfolio-insure.jpg);
+}
+
+.fylo {
+    background-image: url(../../assets/portfolio/fylo/image-portfolio-fylo.jpg);
+}
+
+.card__texto h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #33323D;
+
+    margin-top: 103px;
+}
+
+.card__texto p {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+    margin: 28px 0px 54px;
+}
+
+.card__texto a {
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #33323D;
+
+    padding: 17px 38px;
+
+    border: 1px solid #33323D;
+
+}
+
+.card__texto a:hover {
+    color: #FAFAFA;
+    background: #33323D;
+}
+
+.barracinza {
+    border: 1px solid #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}
+
+.marginBarraDeBaixo {
+    margin-top: 103px;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 212px;
+    margin: 150px 0px
+}
+
+.contato h1 {
+    width: 400px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.contato a {
+    text-decoration: none;
+    padding: 17px 50px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #33323D;
+    border: 1px solid #33323D;
+}
+
+.contato a:hover {
+    color: #FAFAFA;
+    background: #33323D;
+}
